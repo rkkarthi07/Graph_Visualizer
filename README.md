@@ -33,7 +33,7 @@ on the grid and observe how the selected algorithms find the shortest path betwe
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.md).
 
 ## Acknowledgments
 
