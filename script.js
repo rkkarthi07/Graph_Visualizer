@@ -2,15 +2,7 @@ let blocks = document.getElementsByClassName("drawing-area")[0];
 let addEdge = false;
 let cnt = 0;
 let dist;
-let alerted = localStorage.getItem("alerted") || "";
-if (alerted !== "yes") {
-    alert(
-        "Read instructions before proceeding by clicking i-icon in the top-right corner"
-    );
-    localStorage.setItem("alerted", "yes");
-}
 
-// It is called when user starts adding edges by clicking on button given
 const addEdges = () => {
     if (cnt < 2) {
         alert("Create atleast two nodes to add an edge");
